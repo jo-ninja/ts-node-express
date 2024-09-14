@@ -10,6 +10,8 @@ import { router } from "./router";
  */
 dotenv.config();
 
+import "../mocks/init";
+
 /*
  * Create an Express application and get the
  * value of the PORT environment variable
